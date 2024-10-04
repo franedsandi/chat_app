@@ -32,6 +32,7 @@ android {
         versionCode = flutter.versionCode
         versionName = flutter.versionName
         minSdkVersion 23  
+        multiDexEnable true
     }
 
     buildTypes {
@@ -41,6 +42,8 @@ android {
             signingConfig = signingConfigs.debug
         }
     }
+    
+
 }
 
 flutter {
